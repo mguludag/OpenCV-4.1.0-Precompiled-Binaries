@@ -107,7 +107,7 @@
 #define HAVE_OPENEXR
 
 /* OpenGL support*/
-#define HAVE_OPENGL
+/* #undef HAVE_OPENGL */
 
 /* PNG codec */
 #define HAVE_PNG
