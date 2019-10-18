@@ -12,8 +12,8 @@ After the installation completed then open your project file (.pro file) and add
 And Ctrl+S to save this project then its done.
 
 ### On Linux:
-After the installation completed then open the **opencv410.pri** file and find unix section then change the **INCLUDEPATH** and **LIBS** path to you extracted path for example (**/home/*your_username*/opencv/include** and **/home/*your_username*/opencv/x64/unix_gcc/lib**). After this step open your project file (**.pro file**) and add this line below:
+After the installation completed then open the **opencv410.pri** file and find unix section then change the **INCLUDEPATH** and **LIBS** path to you extracted path for example (**/home/*your_username*/opencv/include** and **/home/*your_username*/opencv/x64/unix_gcc/lib**) then save .pri file. After this step open your project file (**.pro file**) and add this line below:
    
 
-     include(/home/*your_username*/opencv//opencv410.pri)
+     include(/home/*your_username*/opencv/opencv410.pri)
 And Ctrl+S to save this project then its done.
