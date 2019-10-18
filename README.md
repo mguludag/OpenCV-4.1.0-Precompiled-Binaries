@@ -4,7 +4,7 @@ Hello, I compiled OpenCV from its source for using with Qt and Qt Creator. Every
 You can simply download the repo and unzip into C:\ drive then unpack the 7z archive in the doc folder and move this folder and .qch file to Qt Docs *(example: C:\Qt\Qt5.13.0\Docs\Qt-5.13.0)* folder inside your Qt installation folder. Thats it!
 
 ## How to use in your Qt Projects and Qt Creator?
-###On Windows:
+##On Windows:
 After the installation completed then open your project file (.pro file) and add this line below:
    
 
